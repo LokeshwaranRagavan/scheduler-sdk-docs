@@ -1,11 +1,11 @@
 ---
 layout: post
-platform: smart scheduler-sdk
+platform: scheduler-sdk
 title: Accessibility in .NET MAUI Smart Scheduler control | Syncfusion®
 description: Ensure accessibility in the .NET MAUI Smart Scheduler with screen reader support, keyboard navigation, and assistive technology features.
-control: SfSmart Scheduler
+control: SfSmartScheduler
 documentation: ug
-appliesto: UI Component Suite, Smart Scheduler SDK
+appliesto: UI Component Suite, Scheduler SDK
 ---
 
 # Accessibility in .NET MAUI Smart Scheduler
@@ -16,7 +16,7 @@ Accessibility support in `SfSmart Scheduler` is designed to provide voice descri
 
 The `SfSmart Scheduler` supports selecting the smart scheduler date time, appointments, and view navigation using keyboard interactions on Windows, macOS, and iOS platforms.
 
-N> The [SelectionChanged](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Smart Scheduler.SfSmart Scheduler.html#Syncfusion_Maui_Smart Scheduler_SfSmart Scheduler_SelectionChanged) event is triggered when the cell selection changes.
+N> The [SelectionChanged](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Scheduler.SfScheduler.html#Syncfusion_Maui_Scheduler_SfScheduler_SelectionChanged) event is triggered when the cell selection changes.
 
 ### Day, Week and WorkWeek views
 
@@ -43,7 +43,7 @@ Moves selection to the previous time slot directly above the currently selected 
 <tr>
 <td>
 Enter<br/><br/></td><td>
-It triggers {{'[Tapped](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Smart Scheduler.SfSmart Scheduler.html#Syncfusion_Maui_Smart Scheduler_SfSmart Scheduler_Tapped)'| markdownify}} event<br/><br/></td></tr>
+It triggers {{'[Tapped](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Scheduler.SfScheduler.html#Syncfusion_Maui_Scheduler_SfScheduler_Tapped)'| markdownify}} event<br/><br/></td></tr>
 </table>
 
 ### Timeline views
@@ -71,7 +71,7 @@ Moves selection to the same time slot on the previous resource.<br/><br/></td></
 <tr>
 <td>
 Enter<br/><br/></td><td>
-It triggers {{'[Tapped](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Smart Scheduler.SfSmart Scheduler.html#Syncfusion_Maui_Smart Scheduler_SfSmart Scheduler_Tapped)'| markdownify}} event<br/><br/></td></tr>
+It triggers {{'[Tapped](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Scheduler.SfScheduler.html#Syncfusion_Maui_Scheduler_SfScheduler_Tapped)'| markdownify}} event<br/><br/></td></tr>
 </table>
 
 ### Month view
@@ -99,7 +99,7 @@ Moves selection to the date directly above the currently selected date on the pr
 <tr>
 <td>
 Enter<br/><br/></td><td>
-It triggers {{'[Tapped](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Smart Scheduler.SfSmart Scheduler.html#Syncfusion_Maui_Smart Scheduler_SfSmart Scheduler_Tapped)'| markdownify}} event<br/><br/></td></tr>
+It triggers {{'[Tapped](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Scheduler.SfScheduler.html#Syncfusion_Maui_Scheduler_SfScheduler_Tapped)'| markdownify}} event<br/><br/></td></tr>
 </table>
 
 ### Appointments
@@ -124,7 +124,7 @@ Delete<br/><br/></td><td>Deletes the selected appointment from the appointments 
 <tr>
 <td>
 Enter<br/><br/></td><td>
-It triggers {{'[Tapped](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Smart Scheduler.SfSmart Scheduler.html#Syncfusion_Maui_Smart Scheduler_SfSmart Scheduler_Tapped)'| markdownify}} event<br/><br/></td></tr>
+It triggers {{'[Tapped](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Scheduler.SfScheduler.html#Syncfusion_Maui_Scheduler_SfScheduler_Tapped)'| markdownify}} event<br/><br/></td></tr>
 </table>
 
 ### View navigations
